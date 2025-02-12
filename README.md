@@ -360,23 +360,23 @@ Desviación estándar de la frecuencia: 25.244547 Hz
 
 ![image](https://github.com/user-attachments/assets/8a7f7817-7339-45d4-adac-236ecbb01f3a)
 
-**Conclusiones**
+## **Conclusiones**
 
 La práctica permitió aplicar y comprender tres herramientas fundamentales del procesamiento digital de señales:
 
--Convolución:
+Convolución:
 
 Se entendió como una operación entre una señal de entrada y un sistema para producir una señal de salida. Esta operación se realizó tanto manualmente como usando Python, facilitando la visualización del resultado en forma gráfica y secuencial. Este concepto es esencial para modelar cómo un sistema responde a estímulos externos.
 
--Correlación:
+Correlación:
 
 Se utilizó para medir la similitud entre dos señales, demostrando su utilidad en la detección de patrones y el análisis de relaciones temporales entre señales. La correlación se calculó para señales periódicas definidas por funciones seno y coseno, mostrando claramente cómo varía la relación entre ambas señales a medida que cambia el desfase.
 
--Transformada de Fourier:
+Transformada de Fourier:
 
 A través del análisis espectral de una señal descargada, se exploró su comportamiento en el dominio de la frecuencia. Esto incluyó la generación de gráficos de la transformada de Fourier y su densidad espectral de potencia, así como el cálculo de estadísticos descriptivos como la frecuencia media, mediana y la desviación estándar. Este enfoque es clave para identificar las componentes de frecuencia predominantes en señales biomédicas y de otros tipos. En resumen, la práctica permitió no solo aprender a usar herramientas computacionales como Python para realizar estos cálculos, sino también comprender el significado práctico de estas operaciones en la interpretación de señales y sistemas. La integración de métodos manuales y computacionales refuerza la capacidad de análisis crítico y técnico en el campo del procesamiento digital de señales.
 
-**Referencias**
+## **Referencias**
 
 Correlación cruzada y convolución. (n.d.). https://support.ptc.com/help/mathcad/r10.0/es/index.html#page/PTC_Mathcad_Help/convolution_and_cross_correlation.html
 
