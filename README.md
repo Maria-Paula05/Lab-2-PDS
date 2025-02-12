@@ -358,7 +358,8 @@ Desviación estándar de la frecuencia: 25.244547 Hz
 
 ![image](https://github.com/user-attachments/assets/8a7f7817-7339-45d4-adac-236ecbb01f3a)
 
-Conclusiones
+Conclusiones:
+
 La práctica permitió aplicar y comprender tres herramientas fundamentales del procesamiento digital de señales:
 
 Convolución:
