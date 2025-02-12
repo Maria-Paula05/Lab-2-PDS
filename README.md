@@ -18,7 +18,8 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft, fftfreq
 from scipy.signal import welch, savgol_filter
 ````
-a) Convolución
+a) Convolución:
+
 La convolución es utilizada para determinar la respuesta de un sistema lineal e invariante en el tiempo ante una señal de entrada. En este caso, se tomó un sistema ℎ[𝑛] y una señal 𝑥[𝑛] para calcular la señal de salida 𝑦[𝑛] mediante la convolución.
 
 El procedimiento fue el siguiente:
