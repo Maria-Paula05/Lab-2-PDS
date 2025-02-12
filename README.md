@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft, fftfreq
 from scipy.signal import welch, savgol_filter
 ````
-a) Convolución:
+## **a) Convolución:**
 
 La convolución es utilizada para determinar la respuesta de un sistema lineal e invariante en el tiempo ante una señal de entrada. En este caso, se tomó un sistema ℎ[𝑛] y una señal 𝑥[𝑛] para calcular la señal de salida 𝑦[𝑛] mediante la convolución.
 
@@ -99,7 +99,7 @@ plt.show()
 <img src="https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099" alt="Texto alternativo" width="600">
 
 
-b) Correlación:
+## **b) Correlación:**
 
 La correlación es utilizada para medir la similitud entre dos señales en diferentes desplazamientos temporales (lags). En este caso, se analizaron dos señales definidas por funciones trigonométricas: una señal coseno y una señal seno, con una frecuencia de 100 Hz y un período de muestreo de 1.25 ms.
 
@@ -178,7 +178,7 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
 
 ![image](https://github.com/user-attachments/assets/fc1796be-af17-4d53-97fd-5943fc542cc0)
 
-c) Caracterización de la señal en el tiempo:
+## **c) Caracterización de la señal en el tiempo:**
 
 Para caracterizar la señal en el dominio del tiempo, se siguieron los siguientes pasos:
 
@@ -200,7 +200,7 @@ factor_diezmado = 8
 senal_mostrar = senal[:muestras_mostrar:factor_diezmado]
 tiempo_mostrar = np.arange(len(senal_mostrar)) * (factor_diezmado/fs)
 ```
-Visualización de la señal
+**Visualización de la señal**
 
 Se generó una gráfica utilizando funciones de Python que muestra la evolución de la señal en función del tiempo.
 ```phyton
@@ -219,7 +219,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/9df2d240-1662-4c04-a1ed-d60d11c71cd6)
 
 
-Estadísticos descriptivos
+**Estadísticos descriptivos**
 
 Para analizar la señal en el dominio del tiempo, se utilizaron funciones de Python para calcular:
 
@@ -245,7 +245,7 @@ Media: -0.001089
 Mediana: -0.001614
 Desviación estándar: 0.101831
 Coeficiente de variación: -93.532295
-Descripción de la señal EMG según su clasificación
+## **Descripción de la señal EMG según su clasificación**
 
 La señal electromiográfica (EMG) es una señal eléctrica que refleja la actividad muscular, generada por la activación de las fibras musculares a través de impulsos neuronales. En este caso, los datos fueron obtenidos de PhysioNet, una base de datos biomédica que generalmente contiene registros de EMG intramuscular.
 
@@ -259,7 +259,7 @@ La Transformada de Fourier (FFT) permite obtener el espectro de frecuencias, rev
 
 A partir del espectro de potencia, se pueden calcular parámetros estadísticos clave, como la frecuencia media, mediana y desviación estándar, los cuales ofrecen información sobre la actividad muscular y el estado de fatiga del músculo.
 
-Transformada de Fourier y densidad espectral
+## **Transformada de Fourier y densidad espectral**
 
 Se utilizaron funciones de Python para transformar la señal al dominio de la frecuencia mediante:
 
@@ -302,7 +302,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/e988aec8-9a2f-40b1-80bf-84cb99023c41)
 
 
-Estadísticos descriptivos en función de la frecuencia
+## **Estadísticos descriptivos en función de la frecuencia**
 
 Se calcularon estadísticos descriptivos en funcion de la frecuencia, basándose en su transformada.
 
