@@ -49,11 +49,14 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-![image](https://github.com/user-attachments/assets/1d158d73-d760-4e3c-a558-5da0d6338f22)
+<img src="https://github.com/user-attachments/assets/1d158d73-d760-4e3c-a558-5da0d6338f22" alt="Texto alternativo" width="500">
 
 -Juan Pablo:
+
 Usando sumatorias:
-![image](https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817)
+
+<img src="![image](https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817)" alt="Texto alternativo" width="500">
+
 ```phyton
 h = [5, 6, 0, 0, 7, 9, 5]  # Sistema h[n]
 x = [1, 0, 7, 6, 7, 3, 8, 4, 9, 5]  # Señal x[n]
@@ -68,11 +71,17 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26)
+<img src="![image](https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26)
+" alt="Texto alternativo" width="500">
+
 
 -Paula Vanessa
+
 Usando sumatorias:
-![image](https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45)
+
+<img src="![image](https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45)" alt="Texto alternativo" width="500">
+
+
 ```phyton
 h = [5, 6, 0, 0, 8, 4, 4]  # Sistema h[n]
 x = [1, 0, 3, 1, 6, 4, 3, 0, 2, 4]  # Señal x[n]
@@ -87,9 +96,11 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-![image](https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099)
+<img src="![image](https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099)" alt="Texto alternativo" width="500">
+
 
 b) Correlación:
+
 La correlación es utilizada para medir la similitud entre dos señales en diferentes desplazamientos temporales (lags). En este caso, se analizaron dos señales definidas por funciones trigonométricas: una señal coseno y una señal seno, con una frecuencia de 100 Hz y un período de muestreo de 1.25 ms.
 
 El procedimiento para calcular la correlación cruzada de estas señales fue:
@@ -151,6 +162,8 @@ plt.grid()
 plt.tight_layout()
 plt.show()
 ````
+Resultado de la correlación:
+
 x1[n]: [ 1.00000000e+00  7.07106781e-01  6.12323400e-17 -7.07106781e-01
  -1.00000000e+00 -7.07106781e-01 -1.83697020e-16  7.07106781e-01
   1.00000000e+00]
@@ -162,9 +175,12 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
  -2.28847549e-17 -2.82842712e+00 -3.50000000e+00 -2.12132034e+00
   4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
   0.00000000e+00]
-  ![image](https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b)
 
-c) Caracterización de la señal en el tiempo
+  <img src=" ![image](https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b)
+" alt="Texto alternativo" width="500">
+
+c) Caracterización de la señal en el tiempo:
+
 Para caracterizar la señal en el dominio del tiempo, se siguieron los siguientes pasos:
 
 Carga de la señal: Se utilizó la función wfdb.rdrecord() para leer la señal descargada de PhysioNet.
@@ -201,7 +217,8 @@ plt.margins(x=0.02)
 plt.tight_layout()
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7a)
+<img src=""![image](https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7a) alt="Texto alternativo" width="400">
+<img src="" alt="Texto alternativo" width="500">
 
 Estadísticos descriptivos
 
@@ -282,7 +299,9 @@ plt.grid()
 plt.tight_layout()
 plt.show()
 ````
-![image](https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18)
+
+<img src="![image](https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18)" alt="Texto alternativo" width="500">
+
 
 Estadísticos descriptivos en función de la frecuencia
 
@@ -336,6 +355,8 @@ Estadísticos descriptivos en función de la frecuencia:
 Frecuencia media: 49.373557 Hz
 Frecuencia mediana: 50.573028 Hz
 Desviación estándar de la frecuencia: 25.244547 Hz
+
+
 
 ![image](https://github.com/user-attachments/assets/8a7f7817-7339-45d4-adac-236ecbb01f3a)
 
