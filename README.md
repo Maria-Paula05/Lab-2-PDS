@@ -28,9 +28,13 @@ Cálculo manual: Se determinó la señal resultante 𝑦[𝑛] usando sumatorias
 Implementación en Python: Se utilizó la función numpy.convolve() para obtener 𝑦[𝑛] y se imprimieron los valores resultantes.
 
 Visualización de la señal resultante: Se obtuvo una representación gráfica utilizando Matplotlib. El gráfico permite observar el comportamiento secuencial de 𝑦[𝑛].
+
 -Maria Paula:
+
 Usando sumatorias:
-![image](https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3)
+
+<img src="https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3" alt="Texto alternativo" width="400">
+
 ```phyton
 h = [5, 6, 0, 0, 9, 1, 2]  # Sistema h[n]
 x = [1, 0, 7, 2, 6, 4, 2, 3, 1, 1]  # Señal x[n]
