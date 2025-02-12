@@ -175,7 +175,7 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
   4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
   0.00000000e+00]
 
-<img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b" alt="Texto alternativo" width="500">
+![image](https://github.com/user-attachments/assets/fc1796be-af17-4d53-97fd-5943fc542cc0)
 
 c) Caracterización de la señal en el tiempo:
 
@@ -215,7 +215,7 @@ plt.margins(x=0.02)
 plt.tight_layout()
 plt.show()
 ```
-<img src=" https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7" alt="Texto alternativo" width="500">
+![image](https://github.com/user-attachments/assets/9df2d240-1662-4c04-a1ed-d60d11c71cd6)
 
 
 Estadísticos descriptivos
@@ -298,7 +298,7 @@ plt.tight_layout()
 plt.show()
 ````
 
-<img src="https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18" alt="Texto alternativo" width="500">
+![image](https://github.com/user-attachments/assets/e988aec8-9a2f-40b1-80bf-84cb99023c41)
 
 
 Estadísticos descriptivos en función de la frecuencia
