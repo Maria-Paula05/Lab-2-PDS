@@ -175,7 +175,7 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
   4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
   0.00000000e+00]
 
-  <img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b" alt="Texto alternativo" width="500">
+<img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b" alt="Texto alternativo" width="500">
 
 c) Caracterización de la señal en el tiempo:
 
