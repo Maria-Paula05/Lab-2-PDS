@@ -55,7 +55,7 @@ plt.show()
 
 Usando sumatorias:
 
-<img src="![image](https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817)" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817" alt="Texto alternativo" width="500">
 
 ```phyton
 h = [5, 6, 0, 0, 7, 9, 5]  # Sistema h[n]
@@ -71,7 +71,7 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ```
-<img src="![image](https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26)
+<img src="https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26
 " alt="Texto alternativo" width="500">
 
 
@@ -79,7 +79,7 @@ plt.show()
 
 Usando sumatorias:
 
-<img src="![image](https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45)" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45" alt="Texto alternativo" width="500">
 
 
 ```phyton
@@ -96,7 +96,7 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-<img src="![image](https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099)" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099" alt="Texto alternativo" width="500">
 
 
 b) Correlación:
@@ -176,7 +176,7 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
   4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
   0.00000000e+00]
 
-  <img src=" ![image](https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b)
+  <img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b
 " alt="Texto alternativo" width="500">
 
 c) Caracterización de la señal en el tiempo:
