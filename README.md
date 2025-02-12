@@ -245,7 +245,7 @@ Media: -0.001089
 Mediana: -0.001614
 Desviación estándar: 0.101831
 Coeficiente de variación: -93.532295
-## **Descripción de la señal EMG según su clasificación**
+**Descripción de la señal EMG según su clasificación**
 
 La señal electromiográfica (EMG) es una señal eléctrica que refleja la actividad muscular, generada por la activación de las fibras musculares a través de impulsos neuronales. En este caso, los datos fueron obtenidos de PhysioNet, una base de datos biomédica que generalmente contiene registros de EMG intramuscular.
 
@@ -259,7 +259,7 @@ La Transformada de Fourier (FFT) permite obtener el espectro de frecuencias, rev
 
 A partir del espectro de potencia, se pueden calcular parámetros estadísticos clave, como la frecuencia media, mediana y desviación estándar, los cuales ofrecen información sobre la actividad muscular y el estado de fatiga del músculo.
 
-## **Transformada de Fourier y densidad espectral**
+**Transformada de Fourier y densidad espectral**
 
 Se utilizaron funciones de Python para transformar la señal al dominio de la frecuencia mediante:
 
@@ -302,7 +302,7 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/e988aec8-9a2f-40b1-80bf-84cb99023c41)
 
 
-## **Estadísticos descriptivos en función de la frecuencia**
+**Estadísticos descriptivos en función de la frecuencia**
 
 Se calcularon estadísticos descriptivos en funcion de la frecuencia, basándose en su transformada.
 
