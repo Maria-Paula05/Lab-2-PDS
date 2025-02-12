@@ -33,7 +33,7 @@ Visualización de la señal resultante: Se obtuvo una representación gráfica u
 
 Usando sumatorias:
 
-<img src="https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3" alt="Texto alternativo" width="400">
+<img src="https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3" alt="Texto alternativo" width="500">
 
 ```phyton
 h = [5, 6, 0, 0, 9, 1, 2]  # Sistema h[n]
