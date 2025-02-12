@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft, fftfreq
 from scipy.signal import welch, savgol_filter
 ````
-## **a) Convolución:**
+## **a) Convolución**
 
 La convolución es utilizada para determinar la respuesta de un sistema lineal e invariante en el tiempo ante una señal de entrada. En este caso, se tomó un sistema ℎ[𝑛] y una señal 𝑥[𝑛] para calcular la señal de salida 𝑦[𝑛] mediante la convolución.
 
@@ -99,7 +99,7 @@ plt.show()
 <img src="https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099" alt="Texto alternativo" width="600">
 
 
-## **b) Correlación:**
+## **b) Correlación**
 
 La correlación es utilizada para medir la similitud entre dos señales en diferentes desplazamientos temporales (lags). En este caso, se analizaron dos señales definidas por funciones trigonométricas: una señal coseno y una señal seno, con una frecuencia de 100 Hz y un período de muestreo de 1.25 ms.
 
