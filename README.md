@@ -312,6 +312,7 @@ Se utilizó para medir la similitud entre dos señales, demostrando su utilidad 
 Transformada de Fourier:
 
 A través del análisis espectral de una señal descargada, se exploró su comportamiento en el dominio de la frecuencia. Esto incluyó la generación de gráficos de la transformada de Fourier y su densidad espectral de potencia, así como el cálculo de estadísticos descriptivos como la frecuencia media, mediana y la desviación estándar. Este enfoque es clave para identificar las componentes de frecuencia predominantes en señales biomédicas y de otros tipos. En resumen, la práctica permitió no solo aprender a usar herramientas computacionales como Python para realizar estos cálculos, sino también comprender el significado práctico de estas operaciones en la interpretación de señales y sistemas. La integración de métodos manuales y computacionales refuerza la capacidad de análisis crítico y técnico en el campo del procesamiento digital de señales.
+
 Referencias
 Correlación cruzada y convolución. (n.d.). https://support.ptc.com/help/mathcad/r10.0/es/index.html#page/PTC_Mathcad_Help/convolution_and_cross_correlation.html
 
