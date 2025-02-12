@@ -71,8 +71,7 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ```
-<img src="https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26
-" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26" alt="Texto alternativo" width="500">
 
 
 -Paula Vanessa
@@ -176,8 +175,7 @@ Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00
   4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
   0.00000000e+00]
 
-  <img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b
-" alt="Texto alternativo" width="500">
+  <img src=" https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b" alt="Texto alternativo" width="500">
 
 c) Caracterización de la señal en el tiempo:
 
@@ -217,8 +215,8 @@ plt.margins(x=0.02)
 plt.tight_layout()
 plt.show()
 ```
-<img src=""![image](https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7a) alt="Texto alternativo" width="400">
-<img src="" alt="Texto alternativo" width="500">
+<img src=" https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7" alt="Texto alternativo" width="500">
+
 
 Estadísticos descriptivos
 
@@ -300,7 +298,7 @@ plt.tight_layout()
 plt.show()
 ````
 
-<img src="![image](https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18)" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18" alt="Texto alternativo" width="500">
 
 
 Estadísticos descriptivos en función de la frecuencia
