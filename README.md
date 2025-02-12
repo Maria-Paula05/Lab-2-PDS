@@ -7,7 +7,7 @@ Este repositorio contiene el código y análisis de herramientas fundamentales d
 
 ---
 
-## **Código**
+## **Librerias**
 
 ```python
 !pip install wfdb
