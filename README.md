@@ -33,7 +33,7 @@ Visualización de la señal resultante: Se obtuvo una representación gráfica u
 
 Usando sumatorias:
 
-<img src="https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3" alt="Texto alternativo" width="600">
 
 ```phyton
 h = [5, 6, 0, 0, 9, 1, 2]  # Sistema h[n]
@@ -49,13 +49,13 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-<img src="https://github.com/user-attachments/assets/1d158d73-d760-4e3c-a558-5da0d6338f22" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/1d158d73-d760-4e3c-a558-5da0d6338f22" alt="Texto alternativo" width="600">
 
 -Juan Pablo:
 
 Usando sumatorias:
 
-<img src="https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817" alt="Texto alternativo" width="600">
 
 ```phyton
 h = [5, 6, 0, 0, 7, 9, 5]  # Sistema h[n]
@@ -71,14 +71,14 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ```
-<img src="https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26" alt="Texto alternativo" width="600">
 
 
 -Paula Vanessa
 
 Usando sumatorias:
 
-<img src="https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45" alt="Texto alternativo" width="600">
 
 
 ```phyton
@@ -95,7 +95,7 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-<img src="https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099" alt="Texto alternativo" width="500">
+<img src="https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099" alt="Texto alternativo" width="600">
 
 
 b) Correlación:
