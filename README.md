@@ -28,7 +28,7 @@ Cálculo manual: Se determinó la señal resultante 𝑦[𝑛] usando sumatorias
 Implementación en Python: Se utilizó la función numpy.convolve() para obtener 𝑦[𝑛] y se imprimieron los valores resultantes.
 
 Visualización de la señal resultante: Se obtuvo una representación gráfica utilizando Matplotlib. El gráfico permite observar el comportamiento secuencial de 𝑦[𝑛].
-a)Maria Paula:
+-Maria Paula:
 Usando sumatorias:
 ![image](https://github.com/user-attachments/assets/c38323e4-0bff-4845-8e2a-b643841fcee3)
 ```phyton
@@ -45,8 +45,10 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
-b)Juan Pablo:
--Usando sumatorias:
+![image](https://github.com/user-attachments/assets/1d158d73-d760-4e3c-a558-5da0d6338f22)
+
+-Juan Pablo:
+Usando sumatorias:
 ![image](https://github.com/user-attachments/assets/bc923ff0-830c-47d9-9c0d-32e6053d6817)
 ```phyton
 h = [5, 6, 0, 0, 7, 9, 5]  # Sistema h[n]
@@ -62,8 +64,10 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ```
-c)Paula Vanessa
--Usando sumatorias:
+![image](https://github.com/user-attachments/assets/6c150b78-a640-489a-b5e8-603d67999f26)
+
+-Paula Vanessa
+Usando sumatorias:
 ![image](https://github.com/user-attachments/assets/77c385ab-fd68-4928-bd72-469b7b595c45)
 ```phyton
 h = [5, 6, 0, 0, 8, 4, 4]  # Sistema h[n]
@@ -79,6 +83,8 @@ plt.ylabel("$y[n]$", fontsize=12)
 plt.grid(True)
 plt.show()
 ````
+![image](https://github.com/user-attachments/assets/6441f668-6eb9-4f64-a42e-9902bcde6099)
+
 b) Correlación:
 La correlación es utilizada para medir la similitud entre dos señales en diferentes desplazamientos temporales (lags). En este caso, se analizaron dos señales definidas por funciones trigonométricas: una señal coseno y una señal seno, con una frecuencia de 100 Hz y un período de muestreo de 1.25 ms.
 
@@ -141,6 +147,19 @@ plt.grid()
 plt.tight_layout()
 plt.show()
 ````
+x1[n]: [ 1.00000000e+00  7.07106781e-01  6.12323400e-17 -7.07106781e-01
+ -1.00000000e+00 -7.07106781e-01 -1.83697020e-16  7.07106781e-01
+  1.00000000e+00]
+x2[n]: [ 0.00000000e+00  7.07106781e-01  1.00000000e+00  7.07106781e-01
+  1.22464680e-16 -7.07106781e-01 -1.00000000e+00 -7.07106781e-01
+ -2.44929360e-16]
+Correlación cruzada r_x1x2[n]: [-2.44929360e-16 -7.07106781e-01 -1.50000000e+00 -1.41421356e+00
+ -2.54671001e-16  2.12132034e+00  3.50000000e+00  2.82842712e+00
+ -2.28847549e-17 -2.82842712e+00 -3.50000000e+00 -2.12132034e+00
+  4.55531587e-16  1.41421356e+00  1.50000000e+00  7.07106781e-01
+  0.00000000e+00]
+  ![image](https://github.com/user-attachments/assets/bc2b64da-2caa-4e10-a1cd-2efb4d3a571b)
+
 c) Caracterización de la señal en el tiempo
 Para caracterizar la señal en el dominio del tiempo, se siguieron los siguientes pasos:
 
@@ -178,6 +197,8 @@ plt.margins(x=0.02)
 plt.tight_layout()
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/09d74671-e6d2-4335-bff1-ab235ef4dd7a)
+
 Estadísticos descriptivos
 
 Para analizar la señal en el dominio del tiempo, se utilizaron funciones de Python para calcular:
@@ -199,6 +220,11 @@ print(f"Mediana: {mediana:.6f}")  # Frecuencia mediana solicitada
 print(f"Desviación estándar: {desviacion:.6f}")  # Desviación estándar solicitada
 print(f"Coeficiente de variación: {coef_variacion:.6f}")
 ````
+Estadísticas de la señal:
+Media: -0.001089
+Mediana: -0.001614
+Desviación estándar: 0.101831
+Coeficiente de variación: -93.532295
 Descripción de la señal EMG según su clasificación
 
 La señal electromiográfica (EMG) es una señal eléctrica que refleja la actividad muscular, generada por la activación de las fibras musculares a través de impulsos neuronales. En este caso, los datos fueron obtenidos de PhysioNet, una base de datos biomédica que generalmente contiene registros de EMG intramuscular.
@@ -212,6 +238,7 @@ Para capturar la señal EMG, la frecuencia de muestreo suele estar en el rango d
 La Transformada de Fourier (FFT) permite obtener el espectro de frecuencias, revelando la distribución de energía dentro del rango característico de la EMG intramuscular.
 
 A partir del espectro de potencia, se pueden calcular parámetros estadísticos clave, como la frecuencia media, mediana y desviación estándar, los cuales ofrecen información sobre la actividad muscular y el estado de fatiga del músculo.
+
 Transformada de Fourier y densidad espectral
 
 Se utilizaron funciones de Python para transformar la señal al dominio de la frecuencia mediante:
@@ -251,6 +278,8 @@ plt.grid()
 plt.tight_layout()
 plt.show()
 ````
+![image](https://github.com/user-attachments/assets/dfbe0ec5-06e8-48b2-98df-7ac03959ef18)
+
 Estadísticos descriptivos en función de la frecuencia
 
 Se calcularon estadísticos descriptivos en funcion de la frecuencia, basándose en su transformada.
@@ -298,6 +327,14 @@ plt.title("Histograma de frecuencias")
 plt.grid()
 plt.show()
 ````
+
+Estadísticos descriptivos en función de la frecuencia:
+Frecuencia media: 49.373557 Hz
+Frecuencia mediana: 50.573028 Hz
+Desviación estándar de la frecuencia: 25.244547 Hz
+
+![image](https://github.com/user-attachments/assets/8a7f7817-7339-45d4-adac-236ecbb01f3a)
+
 Conclusiones
 La práctica permitió aplicar y comprender tres herramientas fundamentales del procesamiento digital de señales:
 
