@@ -245,6 +245,7 @@ Media: -0.001089
 Mediana: -0.001614
 Desviación estándar: 0.101831
 Coeficiente de variación: -93.532295
+
 **Descripción de la señal EMG según su clasificación**
 
 La señal electromiográfica (EMG) es una señal eléctrica que refleja la actividad muscular, generada por la activación de las fibras musculares a través de impulsos neuronales. En este caso, los datos fueron obtenidos de PhysioNet, una base de datos biomédica que generalmente contiene registros de EMG intramuscular.
